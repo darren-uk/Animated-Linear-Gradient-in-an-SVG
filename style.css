@@ -1,0 +1,31 @@
+.sprite-icon {
+  width: 100px;
+}
+
+#my-cool-gradient {
+  #stop01 {
+    animation: change-color1 5s ease-in-out infinite alternate;
+  }
+
+  #stop02 {
+    animation: change-color2 5s ease-in-out infinite alternate;
+  }
+  @keyframes change-color1 {
+    0% {
+      stop-color: red;
+    }
+
+    100% {
+      stop-color: gold;
+    }
+  }
+  @keyframes change-color2 {
+    0% {
+      stop-color: blue;
+    }
+
+    100% {
+      stop-color: red;
+    }
+  }
+}
